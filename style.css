@@ -1383,6 +1383,16 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media(max-width: 768px) {
+
+    .quality__description,
+    .steps__description,
+    .values__description,
+    .testimonials__description {
+        margin-top: 64px;
+        text-align: center;
+        padding: 0px;
+    }
+
     .quality__description,
     .quality__img--wrapper,
     .steps__description,
@@ -1393,15 +1403,6 @@ MOBILE RESPONSIVENESS ↓
     .testimonials__img {
         width: 100%;
         max-width: 448px;
-    }
-
-    .quality__description,
-    .steps__description,
-    .values__description,
-    .testimonials__description {
-        margin-top: 64px;
-        text-align: center;
-        padding: 0px;
     }
 
     #quality .row,
@@ -1536,6 +1537,10 @@ MOBILE RESPONSIVENESS ↓
     .feature__para {
         margin-top: 4px;
         line-height: 2;
+    }
+    .quality__description {
+        margin: 0 auto;
+        padding-top: 64px;
     }
     .steps__list {
         margin-top: 48px;
